@@ -1,0 +1,77 @@
+.main{
+  /* background-image: url('../img/10.png'); */
+  background-color: #008789;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.login{
+  width: 380px;
+  height: 500px;
+  background: #fff;
+  opacity: 1;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%); */
+  /* right: 50px;
+  top: 50%;
+  transform: translateY(-250px); */
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow:10px 10px 10px rgba(0,0,0,0.5);
+
+}
+.login span{
+  display: block;
+  font-size: 20px;
+  color:gray;
+  font-weight: 500;
+}
+.login span:nth-child(1){
+  margin-top: 20px;
+  font-size: 20px;
+}
+.login img{
+  width: 200px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.el-form{
+  width: 300px;
+  margin: 0 auto;
+}
+.el-form-item{
+  margin-bottom: 10px;
+  width:200px;
+  border-color: #4EE6D9;
+}
+.el-input{
+  width: 310px;
+  border-color: #4EE6D9;
+}
+.btn{
+  margin-top: 20px;
+}
+.el-button{
+  width: 310px;
+  background-color: #4EE6D9;
+  border: 0;
+  color: white;
+}
+.el-button img{
+  width: 30px;
+  height: 30px;
+}
